@@ -149,7 +149,7 @@
     grid-column: span 2;
     
   }
-  
+
 
   /* components */
   .testimonial-grid {
@@ -210,3 +210,11 @@
 
 
 
+
+  @media screen and (max-width: 600px) {
+   
+    .testimonial-grid {
+        display: flex;
+        flex-direction: column;
+    }
+  }
