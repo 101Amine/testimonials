@@ -177,7 +177,7 @@
         grid-area: five;
     }
 
-@media  (min-width: 30em) {
+@media  (min-width: 20em) {
     
         .testimonial-grid {
             grid-template-areas:
